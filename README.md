@@ -26,8 +26,8 @@ One could execute these lines of code to run this branch:
 ```
 conda create -n FSDEnv python==3.8
 conda activate FSDEnv
-git clone https://github.com/lmanan/Fourier-Shape-Descriptors.git
-cd Fourier-Shape-Descriptors
+git clone https://github.com/lmanan/FSD.git
+cd FSD
 pip install -e .
 ```
 
@@ -37,7 +37,7 @@ Look in the `examples` directory,  and try out the `BBBC020` notebooks for 2D im
 
 
 ### Datasets
-`BBBC020` **[dataset](https://bbbc.broadinstitute.org/BBBC020)** is made available as release asset **[here](https://github.com/lmanan/Fourier-Shape-Descriptors/releases/tag/v0.0.1)**. 
+`BBBC020` **[dataset](https://bbbc.broadinstitute.org/BBBC020)** is made available as release asset **[here](https://github.com/lmanan/FSD/releases/tag/v0.0.1)**. 
 
 ### How to use on your data?
    
@@ -60,6 +60,6 @@ $data_dir
 
 If you encounter any problems, please **[file an issue]** along with a detailed description.
 
-[file an issue]: https://github.com/lmanan/Fourier-Shape-Descriptors/issues
+[file an issue]: https://github.com/lmanan/FSD/issues
 
 
