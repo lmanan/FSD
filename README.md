@@ -1,4 +1,4 @@
-<h2 align="center">Fourier Shape Descriptor Representation in Microscopy</h2>
+<h2 align="center">Fourier Shape Descriptors in Microscopy</h2>
 
 ## Table of Contents
 
