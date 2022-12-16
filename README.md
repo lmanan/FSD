@@ -37,7 +37,7 @@ Look in the `examples` directory,  and try out the `BBBC020` notebooks for 2D im
 
 
 ### Datasets
-`BBBC020` [dataset](https://bbbc.broadinstitute.org/BBBC020) is made available as release asset **[here](https://github.com/lmanan/Fourier-Shape-Descriptors/releases/tag/v0.0.1)**. 
+`BBBC020` **[dataset](https://bbbc.broadinstitute.org/BBBC020)** is made available as release asset **[here](https://github.com/lmanan/Fourier-Shape-Descriptors/releases/tag/v0.0.1)**. 
 
 ### How to use on your data?
    
