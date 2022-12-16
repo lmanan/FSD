@@ -13,16 +13,17 @@
 ### Introduction
 This repository hosts the code used to obtain a representation of an object instance mask as a `Fourier Shape Descriptor` vector.
 
-With `Fourier-Shape-Descriptors`, one could compare cells and nuclei across time, which could enable tracking based on position and morphology. One also acquires the means to compare two distinct morphologies, by evaluating the distance between their corresponding `Fourier Shape Descriptor` representations.
+With Fourier Shape Descriptors (FSDs), one acquires the means to compare two distinct morphologies, by evaluating the distance between their corresponding `Fourier Shape Descriptor` representations.
 
+Additionally, one could compare cells and nuclei across time, which could enable tracking based on position and morphology. 
 
 ### Dependencies 
 
 One could execute these lines of code to run this branch:
 
 ```
-conda create -n FourierShapeDescriptorsEnv python==3.8
-conda activate FourierSshapeDescriptorsEnv
+conda create -n FSDEnv python==3.8
+conda activate FSDEnv
 git clone https://github.com/lmanan/Fourier-Shape-Descriptors.git
 cd Fourier-Shape-Descriptors
 pip install -e .
@@ -30,7 +31,7 @@ pip install -e .
 
 ### Getting Started
 
-Look in the `examples` directory,  and try out the `BBBC020` notebooks for 2D images. Please make sure to select `Kernel > Change kernel` to `FourierShapeDescriptorsEnv`.   
+Look in the `examples` directory,  and try out the `BBBC020` notebooks for 2D images. Please make sure to select `Kernel > Change kernel` to `FSDEnv`.   
 
 
 ### Datasets
