@@ -6,16 +6,18 @@
 - **[Dependencies](#dependencies)**
 - **[Getting Started](#getting-started)**
 - **[Datasets](#datasets)**
-- **[How to Use on your data](#how-to-use-on-your-data)**
+- **[How to use on your data](#how-to-use-on-your-data)**
 - **[Issues](#issues)**
 
 
 ### Introduction
 This repository hosts the code used to obtain a representation of an object instance mask as a `Fourier Shape Descriptor` vector.
 
-With Fourier Shape Descriptors (FSDs), one acquires the means to compare two distinct morphologies, by evaluating the distance between their corresponding `Fourier Shape Descriptor` representations.
+With Fourier Shape Descriptors (FSD), one acquires the means to compare two distinct morphologies, by evaluating the distance between their corresponding `Fourier Shape Descriptor` representations.
 
-Additionally, one could compare cells and nuclei across time, which could enable tracking based on position and morphology. 
+Additionally, one could use FSD as a feature in order to compare cells and nuclei across time, which could enable tracking based on both position and morphology. 
+
+Lastly, FSD provides a way to smoothen-out errors made previously by a segmentation model.
 
 ### Dependencies 
 
@@ -35,7 +37,7 @@ Look in the `examples` directory,  and try out the `BBBC020` notebooks for 2D im
 
 
 ### Datasets
-`BBBC020` dataset is made available as release asset **[here](https://github.com/lmanan/Fourier-Shape-Descriptors/releases/tag/v0.0.1)**. 
+`BBBC020` [dataset](https://bbbc.broadinstitute.org/BBBC020) is made available as release asset **[here](https://github.com/lmanan/Fourier-Shape-Descriptors/releases/tag/v0.0.1)**. 
 
 ### How to use on your data?
    
