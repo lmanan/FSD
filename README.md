@@ -11,11 +11,11 @@
 
 
 ### Introduction
-This repository hosts the code used to obtain a representation of an object instance mask as a `Fourier Shape Descriptor` vector.
+This repository hosts the code used to obtain a representation of an object instance mask as a `Fourier Shape Descriptor` (FSD) vector.
 
-With Fourier Shape Descriptors (FSD), one acquires the means to compare two distinct morphologies, by evaluating the distance between their corresponding `Fourier Shape Descriptor` representations.
+Using Fourier Shape Descriptors (FSDs), one acquires the means to compare two distinct morphologies.
 
-Additionally, one could use FSD as a feature in order to compare cells and nuclei across time, which could enable tracking based on both position and morphology. 
+Additionally, one could use FSD as a feature in order to match instances of cells imaged in a time-lapse acquisition, which could enable tracking. 
 
 Lastly, FSD provides a way to smoothen-out errors made previously by a segmentation model.
 
