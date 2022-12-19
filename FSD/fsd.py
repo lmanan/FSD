@@ -200,7 +200,7 @@ def process(dir_name, fsd_dir_name='fsd/'):
       X = 1 / len(x) * scipy.fft.fft(x)
       Y = 1 / len(y) * scipy.fft.fft(y)
       np.savez(
-        os.path.join(dir_name, fsd_dir_name) + os.path.basename(label_mask_name)[:-4] + '_' + str(z).zfill(2) + '.npz',
+        os.path.join(dir_name, fsd_dir_name) + os.path.basename(label_mask_name)[:-4] + '+' + str(z).zfill(2) + '.npz',
         X=X, Y=Y)
 
 
@@ -210,7 +210,7 @@ def perform_idft(X, num_frequencies, number_of_points=100):
     temp = 0
     for l in range(-num_frequencies // 2, num_frequencies // 2):
       temp += X[l] * np.exp(1j * 2 * np.pi * i * l / number_of_points)
-    x_recon.append(temp / 1)
+    x_recon.append(temp)
   return x_recon
 
 
@@ -230,7 +230,7 @@ def reconstruct_label_mask(im_path, label_path, fsd_dir_name='fsd/', num_frequen
     Returns
     -------
   """
-  
+
   font = {'family': 'serif',
           'color': 'white',
           'weight': 'bold',
@@ -255,7 +255,7 @@ def reconstruct_label_mask(im_path, label_path, fsd_dir_name='fsd/', num_frequen
     Y = npzfile['Y']
     x_recon = perform_idft(X, num_frequencies=num_frequencies)
     y_recon = perform_idft(Y, num_frequencies=num_frequencies)
-    plt.plot(x_recon, y_recon, 'r-.')
+    plt.plot(np.real(x_recon), np.real(y_recon), 'r-.')
   plt.axis('off')
   plt.text(30, 30, "Reconstruction", fontdict=font)
   plt.xlabel('Reconstruction')

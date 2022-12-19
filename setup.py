@@ -43,6 +43,7 @@ setup(
           "colorspacious",
           "pytest",
           "imagecodecs",
+          "umap-learn"
         ]
 )
 

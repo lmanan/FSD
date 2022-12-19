@@ -15,10 +15,6 @@ This repository hosts the code used to obtain a representation of an object inst
 
 Using Fourier Shape Descriptors (FSDs), one acquires the means to compare two distinct morphologies.
 
-Additionally, one could use FSD as a feature in order to match instances of cells imaged in a time-lapse acquisition, which could enable tracking. 
-
-Lastly, FSD provides a way to smoothen-out errors made previously by a segmentation model.
-
 ### Dependencies 
 
 One could execute these lines of code to run this branch:
@@ -33,11 +29,11 @@ pip install -e .
 
 ### Getting Started
 
-Look in the `examples` directory,  and try out the `BBBC020` notebooks for 2D images. Please make sure to select `Kernel > Change kernel` to `FSDEnv`.   
+Look in the `examples` directory,  and try out the `01-shape-analysis/BBBC020/run.ipynb` notebook for 2D images.
 
 
 ### Datasets
-`BBBC020` **[dataset](https://bbbc.broadinstitute.org/BBBC020)** is made available as release asset **[here](https://github.com/lmanan/FSD/releases/tag/v0.0.1)**. 
+A curated version of the `BBBC020` **[dataset](https://bbbc.broadinstitute.org/BBBC020)** is made available as release asset **[here](https://github.com/lmanan/FSD/releases/tag/v0.0.1)**. 
 
 ### How to use on your data?
    
