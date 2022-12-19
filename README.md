@@ -33,7 +33,7 @@ Look in the `examples` directory,  and try out the `01-shape-analysis/BBBC020/ru
 
 
 ### Datasets
-A curated version of the `BBBC020` **[dataset](https://bbbc.broadinstitute.org/BBBC020)** is made available as release asset **[here](https://github.com/lmanan/FSD/releases/tag/v0.0.1)**. 
+A curated version of the `BBBC020` **[dataset](https://bbbc.broadinstitute.org/BBBC020)** is made available as release asset **[here](https://github.com/lmanan/FSD/releases/tag/v0.0.1-tag)**. 
 
 ### How to use on your data?
    
