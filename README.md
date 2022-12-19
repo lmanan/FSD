@@ -37,7 +37,7 @@ A curated version of the `BBBC020` **[dataset](https://bbbc.broadinstitute.org/B
 
 ### How to use on your data?
    
-`*.tif`-type images and the corresponding instance masks should be respectively present under `images` and `masks`. (In order to prepare such instance masks, one could use the Fiji plugin <b>Labkit</b> as suggested <b>[here](https://github.com/juglab/EmbedSeg/wiki/01---Use-Labkit-to-prepare-instance-masks)</b>). The following would be a desired structure as to how data should be prepared.
+`*.tif`-type images and the corresponding instance masks should be respectively present under `images` and `masks`. The following would be a desired structure as to how data should be prepared.
 
 ```
 $data_dir
